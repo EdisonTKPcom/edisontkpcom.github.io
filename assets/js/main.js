@@ -101,7 +101,7 @@ let resumeButton = document.getElementById('resume-button')
 /* Html2pdf options */
 let opt = {
   margin:       0,
-  filename:     'mr_raazzput_cv.pdf',
+  filename:     'edisontkp_cv.pdf',
   image:        { type: 'jpeg', quality: 0.98 },
   html2canvas:  { scale: 4 },
   jsPDF:        { format: 'a4', orientation: 'portrait' }
