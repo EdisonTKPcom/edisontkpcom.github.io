@@ -292,7 +292,7 @@ img {
     background-color: var(--body-color);
     box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
     border-radius: 1rem 1rem 0 0;
-    z-index: var(--z-fixed)
+  z-index: var(--z-fixed);
     transition: 0.3s;
   }
 
@@ -363,6 +363,9 @@ img {
   border-radius: 50%;
   justify-content: center;
   margin-bottom: var(--mb-1);
+  object-fit: cover;
+  border: 8px solid #3b82f6; /* Blue ring */
+  box-shadow: 0 0 0 4px #000, 0 4px 10px rgba(0,0,0,.25); /* outer separation + depth */
 }
 
 .home_title {
